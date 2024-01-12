@@ -22,6 +22,8 @@ module "member" {
   custom_fields = {
     group = "member"
   }
+
+   account_customizations_name = ""
 }
 
 module "master" {
